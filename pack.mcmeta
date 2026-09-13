@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "description": [{"fallback":"Meta Redstone", "color":"#f05448","underlined": true, "translate": "mcmeta.metaredstone.1"}, {"fallback":": New in-game utility", "color":"#ada39f","underlined": false, "translate": "mcmeta.metaredstone.2"}, {"text":" XXX","color": "#57575c","underlined": false}, {"text":" | ","color":"#57575c","underlined": false},{"fallback":"by bluffcon + ArbiterLib", "color":"#cdcdd1","underlined": false, "translate": "mcmeta.metaredstone.3"}],
+        "min_format": [101,1],
+        "max_format": [101,1]
+    },
+    "info": {
+        "modrinth_project_id": "unset"
+    }
+}

@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poisonous_potato",
+          "functions": [
+            {"function": "set_components",
+                "components": {
+                    "!food":{}, "!consumable":{},
+                    "item_model": "arbiterlib:metaredstone/command/forward",
+                    "item_name": {"translate": "item.metaredstone.command.forward"},
+                    "custom_data": {
+                        "arbiterlib": {"namespace":"metaredstone","id":"command"},
+                        "metaredstone": {"command": "forward"}
+                    },
+                    "lore": [
+                        {"translate":"item.metaredstone.command.description_generic1", "color": "gray", "italic": false},
+                        {"translate":"item.metaredstone.command.description_generic2", "color": "gray", "italic": false},
+                        {"translate":"item.metaredstone.command.description_whenused", "color": "gold", "italic": false},
+                        [{"text": "    ⇒ ", "color": "gray", "italic": false}, {"translate":"item.metaredstone.command.forward.description", "color": "white", "italic": false}],
+                        {"translate":"id.metaredstone","color": "blue", "italic": false}
+                    ]
+                }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ]
+}
