@@ -1,0 +1,1 @@
+$data modify storage directive:temp slips.int_value set value $(string)

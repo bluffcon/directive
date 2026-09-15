@@ -14,7 +14,7 @@
 	"library": {
 		"id": "arbiterlib",
 		"modrinth_project_id": "aHzaVmyo",
-		"min_version": 20
+		"min_version": 23
 	},
 
 	"modrinth": {
