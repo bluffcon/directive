@@ -1,10 +1,16 @@
 {
     "pack": {
-        "description": [{"fallback":"Meta Redstone", "color":"#f05448","underlined": true, "translate": "mcmeta.metaredstone.1"}, {"fallback":": New in-game utility", "color":"#ada39f","underlined": false, "translate": "mcmeta.metaredstone.2"}, {"text":" XXX","color": "#57575c","underlined": false}, {"text":" | ","color":"#57575c","underlined": false},{"fallback":"by bluffcon + ArbiterLib", "color":"#cdcdd1","underlined": false, "translate": "mcmeta.metaredstone.3"}],
+        "description": [
+          	{"sprite": "item/diamond", "atlas": "items"}, " ",
+			{"fallback":"Directive", "color":"#ca7fe7","underlined": true,"translate": "mcmeta.directive.1"},
+			{"text":": ", "color":"#d7dbdd","underlined": false},
+			{"fallback":"Your description!", "color":"#ccb4e4","underlined": false,"translate": "mcmeta.directive.2"},
+			{"text":" [×VER×]","color": "#57575c"},
+			{"text":" | ","color":"#57575c","underlined": false},
+			{"fallback":" by AUTHOR + ArbiterLib", "color":"#cdcdd1","underlined": false,"translate": "mcmeta.directive.3"}
+		],
+
         "min_format": [101,1],
         "max_format": [101,1]
-    },
-    "info": {
-        "modrinth_project_id": "unset"
     }
 }

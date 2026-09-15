@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_golem_spawn_egg",
+          "name": "minecraft:villager_spawn_egg",
           "functions": [
             {"function": "set_components",
                 "components": {
@@ -15,16 +15,16 @@
                             "data": 
                                 {"arbiterlib":
                                     {"block":
-                                        {"namespace": "arbiterlib",
-                                            "function": "directive:block/blocks/messenger/spawn",
-                                            "drop_loottable": "arbiterlib:crafts/messenger",
-                                            "id": "messenger"
+                                        {"namespace": "directive",
+                                            "function": "directive:block/a/spawn",
+                                            "drop_loottable": "directive:crafts/block_a",
+                                            "id": "a"
                                         },
-                                      "id": "smeltery",
-                                      "namespace": "arbiterlib"
+                                      "id": "a",
+                                      "namespace": "directive"
                                     }
                                 },
-                        "item": {"id": "crafting_table","components": {"item_model": "arbiterlib:directive/messenger"}},
+                        "item": {"id": "crafting_table","components": {"item_model": "arbiterlib:core/smeltery"}},
                         "brightness": {
                             "block": 15, "sky": 0
                         },
@@ -32,14 +32,14 @@
                         "Rotation": [0,0],
                         "glow_color_override": 16712194
                         },
-                    "item_model": "arbiterlib:directive/messenger",
-                    "item_name": {"translate": "block.directive.messenger"},
+                    "item_model": "arbiterlib:core/smeltery",
+                    "item_name": {"translate": "block.directive.a"},
                     "custom_data": {
-                        "arbiterlib": {"namespace":"directive","id":"messenger"}
+                        "arbiterlib": {"namespace":"directive","id":"a"}
                     },
                     "lore": [
-                        {"translate":"item.directive.messenger.description", "color": "gray", "italic": false},
-                        {"translate":"id.directive","color": "blue", "italic": false}
+                        {"translate":"item.directive.a.description", "color": "gray", "italic": false},
+                        {"translate":"id.directive", "color": "blue", "italic": false}
                     ]
                 }
             }
