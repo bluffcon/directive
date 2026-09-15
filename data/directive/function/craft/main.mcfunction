@@ -12,6 +12,6 @@ if items block ~ ~ ~ container.20 bedrock \
 if items block ~ ~ ~ container.21 bedrock \
 \
 run return run function arbiterlib:craft/workbench/craft/macro \
-{namespace:"directive", loottable:"clay", rarity:"common", item:"clay", max_stack:64, count:4}
+{namespace:"directive", loottable:"command", rarity:"common", item:"basic_command", max_stack:64, count:4}
 
 

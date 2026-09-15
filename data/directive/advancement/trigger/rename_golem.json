@@ -1,0 +1,14 @@
+{
+    "criteria": {
+        "x": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "item": {"items": "name_tag"},
+                "entity": {"type": "copper_golem"}
+            }
+        }
+    },
+    "rewards": {
+        "function": "directive:golem/spawn/trigger"
+    }
+}

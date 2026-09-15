@@ -1,31 +1,31 @@
 {
-  "id": "directive",
-  "name": "Example Datapack",
-  "description": "Description",
-  "license": "License name",
-  "authors": ["author", "ArbiterLib"],
-  "homepage": "https://modrinth.com/datapack/YOURPROJECTNAME",
-  "sources": "https://github.com/NAME/REPONAME",
-  "issues": "https://github.com/NAME/REPONAME/issues",
-  "icon": "pack.png",
+	"id": "directive",
+	"name": "Directive",
+	"description": "New tech meta!",
+	"license": "MIT",
+	"authors": ["bluffcon", "ArbiterLib"],
+	"homepage": "https://modrinth.com/datapack/directive",
+	"sources": "https://github.com/bluffcon/directive",
+	"issues": "https://github.com/bluffcon/directive/issues",
+	"icon": "pack.png",
 
-  "main_mod": false,
+	"main_mod": false,
 
-  "library": {
-    "id": "arbiterlib",
-    "modrinth_project_id": "aHzaVmyo",
-    "min_version": 20
-  },
+	"library": {
+		"id": "arbiterlib",
+		"modrinth_project_id": "aHzaVmyo",
+		"min_version": 20
+	},
 
-  "modrinth": {
-    "project_id": "REPLACE_THIS",
-    "game_versions": ["26.1.2"],
-    "channel": "release",
-    "environment": "server_only_client_optional"
-  },
+	"modrinth": {
+		"project_id": "m7Zo6bQ2",
+		"game_versions": ["26.1.2"],
+		"channel": "release",
+		"environment": "server_only_client_optional"
+	},
 
-  "resource_pack": {
-    "present": false,
-    "required": false
-  }
+	"resource_pack": {
+		"present": false,
+		"required": false
+	}
 }

@@ -1,13 +1,13 @@
 {
     "pack": {
         "description": [
-          	{"sprite": "item/diamond", "atlas": "items"}, " ",
-			{"fallback":"Directive", "color":"#ca7fe7","underlined": true,"translate": "mcmeta.directive.1"},
+          	{"sprite": "item/copper_nautilus_armor", "atlas": "items"}, " ",
+			{"fallback":"Directive", "color":"#eba06e","underlined": true,"translate": "mcmeta.directive.1"},
 			{"text":": ", "color":"#d7dbdd","underlined": false},
-			{"fallback":"Your description!", "color":"#ccb4e4","underlined": false,"translate": "mcmeta.directive.2"},
+			{"fallback":"New tech meta!", "color":"#fcd292","underlined": false,"translate": "mcmeta.directive.2"},
 			{"text":" [×VER×]","color": "#57575c"},
 			{"text":" | ","color":"#57575c","underlined": false},
-			{"fallback":" by AUTHOR + ArbiterLib", "color":"#cdcdd1","underlined": false,"translate": "mcmeta.directive.3"}
+			{"fallback":" by bluffcon + ArbiterLib", "color":"#cdcdd1","underlined": false,"translate": "mcmeta.directive.3"}
 		],
 
         "min_format": [101,1],

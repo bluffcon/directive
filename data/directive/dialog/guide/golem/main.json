@@ -1,0 +1,6 @@
+{
+    "type": "dialog_list",
+    "dialogs": [],
+    "title": {"translate": "ui.directive.guide.main.title"},
+    "exit_action": {"label": {"translate": "gui.done"}}
+}

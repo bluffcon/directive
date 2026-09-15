@@ -1,0 +1,41 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "CustomName": "Instruction Golem"
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "CustomName": {"text": "Instruction Golem"}
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "CustomName": "instruction golem"
+                }
+            }
+        },
+        {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+                "nbt": {
+                    "CustomName": {"text": "instruction golem"}
+                }
+            }
+        }
+    ]
+}
