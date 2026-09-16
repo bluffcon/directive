@@ -6,26 +6,44 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_11",
-          "functions": [
-            {"function": "set_components",
-                "components": {
-                    "!jukebox_playable": {}, "rarity": "common", "max_stack_size": 64,
-                    "item_model": "arbiterlib:directive/command/basic",
-                    "item_name": {"translate": "item.directive.command.basic"},
-                    "custom_data": {
-                        "arbiterlib": {"namespace":"directive","id":"command"}
-                    },
-                    "lore": [
-                        {"translate":"item.directive.command.description_generic1", "color": "gray", "italic": false},
-                        {"translate":"item.directive.command.description_generic2", "color": "gray", "italic": false},
-                        {"translate":"id.directive","color": "blue", "italic": false}
-                    ]
+          "modifier": {
+            "type": "set_components",
+            "components": {
+              "!jukebox_playable": {},
+              "rarity": "common",
+              "max_stack_size": 64,
+              "item_model": "arbiterlib:directive/command/basic",
+              "item_name": {
+                "translate": "item.directive.command.basic"
+              },
+              "custom_data": {
+                "arbiterlib": {
+                  "namespace": "directive",
+                  "id": "command"
                 }
+              },
+              "lore": [
+                {
+                  "translate": "item.directive.command.description_generic1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.directive.command.description_generic2",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "id.directive",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
             }
-          ]
+          }
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }

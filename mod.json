@@ -14,12 +14,12 @@
 	"library": {
 		"id": "arbiterlib",
 		"modrinth_project_id": "aHzaVmyo",
-		"min_version": 23
+		"min_version": 26
 	},
 
 	"modrinth": {
 		"project_id": "m7Zo6bQ2",
-		"game_versions": ["26.1.2"],
+		"game_versions": ["26.3"],
 		"channel": "release",
 		"environment": "server_only_client_optional"
 	},

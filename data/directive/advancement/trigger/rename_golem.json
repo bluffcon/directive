@@ -3,8 +3,16 @@
         "x": {
             "trigger": "player_interacted_with_entity",
             "conditions": {
-                "item": {"items": "name_tag"},
-                "entity": {"type": "copper_golem"}
+                "item": {
+                    "items": "name_tag"
+                },
+                "entity": {
+                    "type": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "entity_type": "copper_golem"
+                    }
+                }
             }
         }
     },

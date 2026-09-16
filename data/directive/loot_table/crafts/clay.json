@@ -6,29 +6,45 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_11",
-          "functions": [
-            {"function": "set_components",
-                "components": {
-                    "!jukebox_playable": {}, "rarity": "common", "max_stack_size": 64,
-                    "item_model": "arbiterlib:heart",
-                    "item_name": {"translate": "item.directive.clay"},
-                    "custom_data": {
-                        "arbiterlib": {"namespace":"directive","id":"clay"}
-                    },
-                    "lore": [
-                        {"translate":"item.directive.clay.description", "color": "gray", "italic": false},
-                        {"translate":"id.directive.short", "color": "blue", "italic": false}
-                    ]
-                }
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "rarity": "common",
+                "max_stack_size": 64,
+                "item_model": "arbiterlib:heart",
+                "item_name": {
+                  "translate": "item.directive.clay"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "directive",
+                    "id": "clay"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.directive.clay.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "id.directive.short",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
             },
             {
-                "function": "set_count",
-                "count": 4
+              "type": "set_count",
+              "count": 4
             }
           ]
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ]
 }
