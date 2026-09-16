@@ -1,5 +1,3 @@
 
-function directive:golem/slip/fall/down
-execute if block ~ ~-1 ~ #blocks_motion run return fail
-
-function directive:golem/slip/fall/two
+execute at @s unless block ~ ~-1 ~ #blocks_motion run tp @s ~ ~-1 ~
+execute at @s unless block ~ ~-1 ~ #blocks_motion run function directive:golem/slip/fall/main
