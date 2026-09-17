@@ -1,0 +1,50 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": [
+            {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "rarity": "common",
+                "max_stack_size": 64,
+                "item_model": "arbiterlib:directive/redstone_grains",
+                "item_name": {
+                  "translate": "item.directive.redstone_grains"
+                },
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "directive",
+                    "id": "redstone_grains"
+                  }
+                },
+                "lore": [
+                  {
+                    "translate": "item.directive.redstone_grains.description",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "id.directive.short",
+                    "color": "blue",
+                    "italic": false
+                  }
+                ]
+              }
+            },
+            {
+              "type": "set_count",
+              "count": 4
+            }
+          ]
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

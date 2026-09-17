@@ -1,0 +1,9 @@
+{
+    "type": "limit_slots",
+    "limit": 1,
+    "slot_source": {
+        "type": "filtered",
+        "item_filter": {"count": {"min": 1}},
+        "slot_source": "directive:any"
+    }
+}

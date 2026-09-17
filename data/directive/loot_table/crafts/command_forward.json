@@ -6,61 +6,67 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:music_disc_11",
-          "modifier": {
-            "type": "set_components",
-            "components": {
-              "!jukebox_playable": {},
-              "rarity": "common",
-              "max_stack_size": 64,
-              "item_model": "arbiterlib:directive/command/forward",
-              "item_name": {
-                "translate": "item.directive.command.forward"
-              },
-              "custom_data": {
-                "arbiterlib": {
-                  "namespace": "directive",
-                  "id": "command"
+          "modifier": [
+              {
+              "type": "set_components",
+              "components": {
+                "!jukebox_playable": {},
+                "rarity": "common",
+                "max_stack_size": 64,
+                "item_model": "arbiterlib:directive/command/forward",
+                "item_name": {
+                  "translate": "item.directive.command.forward"
                 },
-                "directive": {
-                  "command": "forward"
-                }
-              },
-              "lore": [
-                {
-                  "translate": "item.directive.command.description_generic1",
-                  "color": "gray",
-                  "italic": false
+                "custom_data": {
+                  "arbiterlib": {
+                    "namespace": "directive",
+                    "id": "command"
+                  },
+                  "directive": {
+                    "command": "forward"
+                  }
                 },
-                {
-                  "translate": "item.directive.command.description_generic2",
-                  "color": "gray",
-                  "italic": false
-                },
-                {
-                  "translate": "item.directive.command.description_whenused",
-                  "color": "gold",
-                  "italic": false
-                },
-                [
+                "lore": [
                   {
-                    "text": "    ⇒ ",
+                    "translate": "item.directive.command.description_generic1",
                     "color": "gray",
                     "italic": false
                   },
                   {
-                    "translate": "item.directive.command.forward.description",
-                    "color": "white",
+                    "translate": "item.directive.command.description_generic2",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.directive.command.description_whenused",
+                    "color": "gold",
+                    "italic": false
+                  },
+                  [
+                    {
+                      "text": "    ⇒ ",
+                      "color": "gray",
+                      "italic": false
+                    },
+                    {
+                      "translate": "item.directive.command.forward.description",
+                      "color": "white",
+                      "italic": false
+                    }
+                  ],
+                  {
+                    "translate": "id.directive",
+                    "color": "blue",
                     "italic": false
                   }
-                ],
-                {
-                  "translate": "id.directive",
-                  "color": "blue",
-                  "italic": false
-                }
-              ]
+                ]
+              }
+            },
+            {
+              "type": "set_count",
+              "count": 16
             }
-          }
+          ]
         }
       ],
       "rolls": 1

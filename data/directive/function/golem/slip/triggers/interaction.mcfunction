@@ -6,3 +6,9 @@ $execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data
 $execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"drop_item"} run return run function directive:golem/slip/interaction/drop_item
 
 $execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"insert_item_in_front"} run return run function directive:golem/slip/interaction/insert_item_in_front
+$execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"insert_item_below"} run return run function directive:golem/slip/interaction/insert_item_below
+
+$execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"take_first_item_in_front"} run return run function directive:golem/slip/interaction/take_first_item_in_front
+$execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"take_first_item_below"} run return run function directive:golem/slip/interaction/take_first_item_below
+$execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"take_last_item_in_front"} run return run function directive:golem/slip/interaction/take_last_item_in_front
+$execute if data block $(x) $(y) $(z) Items[0].components."minecraft:custom_data".directive{command:"take_last_item_below"} run return run function directive:golem/slip/interaction/take_last_item_below

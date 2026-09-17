@@ -4,3 +4,5 @@ scoreboard objectives add directive.internal_count dummy
 
 scoreboard objectives add directive.golem_cooldown dummy
 scoreboard objectives add directive.setting.golem_cooldown dummy
+
+scoreboard objectives add directive.whatever dummy

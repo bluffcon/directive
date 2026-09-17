@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_11",
+          "modifier": {
+            "type": "set_components",
+            "components": {
+              "!jukebox_playable": {},
+              "rarity": "common",
+              "max_stack_size": 64,
+              "item_model": "arbiterlib:directive/command/insert_item_below",
+              "item_name": {
+                "translate": "item.directive.command.insert_item_below"
+              },
+              "custom_data": {
+                "arbiterlib": {
+                  "namespace": "directive",
+                  "id": "command"
+                },
+                "directive": {
+                  "command": "insert_item_below"
+                }
+              },
+              "lore": [
+                {
+                  "translate": "item.directive.command.description_generic1",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.directive.command.description_generic2",
+                  "color": "gray",
+                  "italic": false
+                },
+                {
+                  "translate": "item.directive.command.description_whenused",
+                  "color": "gold",
+                  "italic": false
+                },
+                [
+                  {
+                    "text": "    ⇒ ",
+                    "color": "gray",
+                    "italic": false
+                  },
+                  {
+                    "translate": "item.directive.command.insert_item_below.description",
+                    "color": "white",
+                    "italic": false
+                  }
+                ],
+                {
+                  "translate": "id.directive",
+                  "color": "blue",
+                  "italic": false
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

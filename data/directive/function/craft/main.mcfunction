@@ -15,3 +15,12 @@ run return run function arbiterlib:craft/workbench/craft/macro \
 {namespace:"directive", loottable:"command", rarity:"common", item:"basic_command", max_stack:64, count:4}
 
 
+execute \
+if items block ~ ~ ~ arbiterlib:any_workbench_slot redstone \
+if items block ~ ~ ~ arbiterlib:any_workbench_slot cobblestone \
+if items block ~ ~ ~ arbiterlib:any_workbench_slot sand \
+\
+run return run function arbiterlib:craft/workbench/craft/macro \
+{namespace:"directive", loottable:"redstone_grains", rarity:"common", item:"item", max_stack:64, count:4}
+
+
