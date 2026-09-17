@@ -1,0 +1,23 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "knowledge_book",
+                    "modifier": [
+                        {
+                            "type": "set_custom_data",
+                            "tag": {
+                                "arbiterlib": {
+                                    "id": "directive_special_null"
+                                }
+                            }
+                        }
+                    ]
+                }
+            ] 
+        }
+    ]
+}

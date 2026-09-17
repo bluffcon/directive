@@ -1,0 +1,5 @@
+{
+    "type": "slot_range",
+    "slots": "container.*",
+    "source": "container"
+}

@@ -1,0 +1,10 @@
+{
+    "type": "filtered",
+    "item_filter": {
+        "items": "knowledge_book",
+        "components": {
+            "custom_data": {"arbiterlib": {"id": "directive_special_null"}}
+        }
+    },
+    "slot_source": "directive:any"
+}
